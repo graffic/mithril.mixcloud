@@ -1,0 +1,8 @@
+{
+  "node": true,
+  "globals": {
+    "require": false,
+    "console": false,
+    "__dirname": false
+  }
+}

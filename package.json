@@ -1,0 +1,21 @@
+{
+  "name": "mitrhil.mixcloud",
+  "version": "1.0.0",
+  "description": "Playing with mithril and mixcloud",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "bower-webpack-plugin": "^0.1.6",
+    "gulp": "^3.8.11",
+    "gulp-ignore": "^1.2.1",
+    "gulp-webpack-build": "^0.5.1",
+    "msx": "^0.3.0",
+    "webpack": "^1.7.2",
+    "webpack-dev-server": "^1.7.0"
+  }
+}

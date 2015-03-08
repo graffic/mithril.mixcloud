@@ -1,0 +1,12 @@
+# Intellij files
+.idea
+# Bower
+bower_components
+# Intellij project
+*.iml
+# Node js
+node_modules
+# Compiled application dist folder
+dist
+# node env
+env
