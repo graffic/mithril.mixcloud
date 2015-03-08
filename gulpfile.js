@@ -5,12 +5,13 @@ var gulpIgnore = require('gulp-ignore');
 var webpackBuild = require('gulp-webpack-build');
 var webpack = require('webpack');
 var path = require('path');
-var WebpackDevServer = require("webpack-dev-server");
+var WebpackDevServer = require('webpack-dev-server');
 
 var config = {
-  webpack: path.join(__dirname, webpackBuild.config.CONFIG_FILENAME),
-  src: path.join(__dirname, 'src'),
-  dest: path.join(__dirname, 'dist')
+    webpack: path.join(__dirname, webpackBuild.config.CONFIG_FILENAME),
+    src: path.join(__dirname, 'src'),
+    dest: path.join(__dirname, 'dist'),
+    templateCompiler: path.join(__dirname, 'gulp', 'template-compiler.sjs')
 };
 
 gulp.task('webpack', function() {
